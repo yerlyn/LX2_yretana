@@ -1,0 +1,175 @@
+    1  dmesg 
+    2  dpkg -l | grep -i nvidia-*
+    3  sudo apt-get remove --purge nvidia-*
+    4  sudo apt-get install ubuntu-desktop
+    5  cat /etc/x11/default-display-manager
+    6  sudo restart lightdm 
+    7  exit
+    8  ifdown eth0
+    9  ifup eth0
+   10  ip addr
+   11  ifup eth0
+   12  reboot
+   13  ls
+   14  pwd
+   15  cd /etc
+   16  cd /git
+   17  mkdir gitconfig
+   18  ls
+   19  cd gitconfig/
+   20  ls
+   21  clear
+   22  cd ..
+   23  ls -ltrh gitconfig
+   24  ls -ltrh git
+   25  ls -ltrh 
+   26  pwd
+   27  clear
+   28  git config --global user.name "yerlyn"
+   29  git config --global user.name "yin@yin"
+   30  geit config --list
+   31  git config --list
+   32  git config --global user.name "yerlyn"
+   33  git config --global user.email "yin@yin"
+   34  git config --list
+   35  ifup eth0
+   36  ifdown eth0
+   37  ifconfig
+   38  sudo dmesg | grep eth0
+   39  ifconfig
+   40  ip adr
+   41  ip addr
+   42  ifdown eth0
+   43  ifup eth0
+   44  ip addr
+   45  reboot
+   46  ifdown eth0
+   47  ifup eth0
+   48  ifconfig
+   49  service networking restart
+   50  reboot
+   51  shutdown -h now
+   52  git config --list
+   53  exit
+   54  pwd
+   55  cd /etc
+   56  sudo chown yin:yin /etc/gitconfig/
+   57  sudo chown -R yin:yin /etc/gitconfig/
+   58  exit
+   59  chown yin
+   60  chmod 777 -R /etc/gitconfig/
+   61  exit
+   62  clear
+   63  git init
+   64  git add *.c
+   65  git add README
+   66  pwd
+   67  ls
+   68  cd /root/.git/
+   69  ls
+   70  git add *.c
+   71  git add README
+   72  tre
+   73  tree
+   74  sudo apt-get install tree
+   75  tree
+   76  clear
+   77  git commit -m 'Initial'
+   78  exit
+   79  git status
+   80  cat .bash_history 
+   81  clear
+   82  git status
+   83  env
+   84  ls
+   85  env | grep PATH
+   86  git
+   87  env | grep PATH
+   88  env | grep git
+   89  which git
+   90  cd /etc/gitconfig/
+   91  ls
+   92  git config --global user.email "yinm05@gmail.com"
+   93  git config --global credential.helper cache
+   94  git config --global credential.helper 'cache --timeout=86400'
+   95  cd ..
+   96  cd
+   97  clear
+   98  pwd
+   99  git init
+  100  rm -R .git
+  101  git init
+  102  git status
+  103  echo $HOSTNAME
+  104  history
+  105  ls -ltra
+  106  ln -s .bash_history root_history
+  107  ls -ltr
+  108  cat root_history 
+  109  ls -trh
+  110  ls -ltrh
+  111  ls -ltrha
+  112  rm root_history 
+  113  echo "# LX2_yretana" >> README.md
+  114  ls
+  115  git init
+  116  git add README.md
+  117  git commit -m "first commit"
+  118  ls
+  119  cat readme.md
+  120  cat README.md
+  121  git status
+  122  git remote add github https://github.com/yerlyn/LX2_yretana.git
+  123  git push -u github master
+  124  ls
+  125  mkdir HISTORY
+  126  git add HISTORY
+  127  commit
+  128  git commit -m "Second Commit"
+  129  cd history
+  130  cd HISTORY
+  131  ;s
+  132  ls
+  133  cd
+  134  history > HISTORY/root
+  135  ls
+  136  cd HISTORY/
+  137  ls
+  138  cat root
+  139  history > HISTORY/root-history
+  140  cd
+  141  history > HISTORY/root-history
+  142* git add
+  143  ls
+  144  rm root
+  145  clear
+  146  cd
+  147  git add HISTORY/root-history 
+  148  git push -u github master
+  149  git commit -m "history"
+  150  git push -u github master
+  151  clear
+  152  fdisk -l
+  153  pvcreate /dev/sda6
+  154  fdisk -l
+  155  df -h 
+  156  df -s
+  157  swap
+  158  pvcreate /dev/sda{6,7,8}
+  159  root@yin-VirtualBox:~# pvcreate /dev/sda{6,7,8}
+  160  hdparm -I
+  161  hdparm -i
+  162  clear
+  163  pvdisplay
+  164  hdparm -l
+  165  hdparm -I /dev/sda6
+  166  man vgcreate
+  167  fdisk -l
+  168  fdisk 
+  169  fdisk
+  170  clear
+  171  fdisk /dev/sda6
+  172  fdisk /dev/sda7
+  173  fdisk /dev/sda8
+  174  clear
+  175  history >HISTORY/root-history-lvm
