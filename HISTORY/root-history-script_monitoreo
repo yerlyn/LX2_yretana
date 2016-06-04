@@ -1,0 +1,334 @@
+    1  04/06/16 10:30:17 dmesg 
+    2  04/06/16 10:30:17 dpkg -l | grep -i nvidia-*
+    3  04/06/16 10:30:17 sudo apt-get remove --purge nvidia-*
+    4  04/06/16 10:30:17 sudo apt-get install ubuntu-desktop
+    5  04/06/16 10:30:17 cat /etc/x11/default-display-manager
+    6  04/06/16 10:30:17 sudo restart lightdm 
+    7  04/06/16 10:30:17 exit
+    8  04/06/16 10:30:17 ifdown eth0
+    9  04/06/16 10:30:17 ifup eth0
+   10  04/06/16 10:30:17 ip addr
+   11  04/06/16 10:30:17 ifup eth0
+   12  04/06/16 10:30:17 reboot
+   13  04/06/16 10:30:17 ls
+   14  04/06/16 10:30:17 pwd
+   15  04/06/16 10:30:17 cd /etc
+   16  04/06/16 10:30:17 cd /git
+   17  04/06/16 10:30:17 mkdir gitconfig
+   18  04/06/16 10:30:17 ls
+   19  04/06/16 10:30:17 cd gitconfig/
+   20  04/06/16 10:30:17 ls
+   21  04/06/16 10:30:17 clear
+   22  04/06/16 10:30:17 cd ..
+   23  04/06/16 10:30:17 ls -ltrh gitconfig
+   24  04/06/16 10:30:17 ls -ltrh git
+   25  04/06/16 10:30:17 ls -ltrh 
+   26  04/06/16 10:30:17 pwd
+   27  04/06/16 10:30:17 clear
+   28  04/06/16 10:30:17 git config --global user.name "yerlyn"
+   29  04/06/16 10:30:17 git config --global user.name "yin@yin"
+   30  04/06/16 10:30:17 geit config --list
+   31  04/06/16 10:30:17 git config --list
+   32  04/06/16 10:30:17 git config --global user.name "yerlyn"
+   33  04/06/16 10:30:17 git config --global user.email "yin@yin"
+   34  04/06/16 10:30:17 git config --list
+   35  04/06/16 10:30:17 ifup eth0
+   36  04/06/16 10:30:17 ifdown eth0
+   37  04/06/16 10:30:17 ifconfig
+   38  04/06/16 10:30:17 sudo dmesg | grep eth0
+   39  04/06/16 10:30:17 ifconfig
+   40  04/06/16 10:30:17 ip adr
+   41  04/06/16 10:30:17 ip addr
+   42  04/06/16 10:30:17 ifdown eth0
+   43  04/06/16 10:30:17 ifup eth0
+   44  04/06/16 10:30:17 ip addr
+   45  04/06/16 10:30:17 reboot
+   46  04/06/16 10:30:17 ifdown eth0
+   47  04/06/16 10:30:17 ifup eth0
+   48  04/06/16 10:30:17 ifconfig
+   49  04/06/16 10:30:17 service networking restart
+   50  04/06/16 10:30:17 reboot
+   51  04/06/16 10:30:17 shutdown -h now
+   52  04/06/16 10:30:17 git config --list
+   53  04/06/16 10:30:17 exit
+   54  04/06/16 10:30:17 pwd
+   55  04/06/16 10:30:17 cd /etc
+   56  04/06/16 10:30:17 sudo chown yin:yin /etc/gitconfig/
+   57  04/06/16 10:30:17 sudo chown -R yin:yin /etc/gitconfig/
+   58  04/06/16 10:30:17 exit
+   59  04/06/16 10:30:17 chown yin
+   60  04/06/16 10:30:17 chmod 777 -R /etc/gitconfig/
+   61  04/06/16 10:30:17 exit
+   62  04/06/16 10:30:17 clear
+   63  04/06/16 10:30:17 git init
+   64  04/06/16 10:30:17 git add *.c
+   65  04/06/16 10:30:17 git add README
+   66  04/06/16 10:30:17 pwd
+   67  04/06/16 10:30:17 ls
+   68  04/06/16 10:30:17 cd /root/.git/
+   69  04/06/16 10:30:17 ls
+   70  04/06/16 10:30:17 git add *.c
+   71  04/06/16 10:30:17 git add README
+   72  04/06/16 10:30:17 tre
+   73  04/06/16 10:30:17 tree
+   74  04/06/16 10:30:17 sudo apt-get install tree
+   75  04/06/16 10:30:17 tree
+   76  04/06/16 10:30:17 clear
+   77  04/06/16 10:30:17 git commit -m 'Initial'
+   78  04/06/16 10:30:17 exit
+   79  04/06/16 10:30:17 git status
+   80  04/06/16 10:30:17 cat .bash_history 
+   81  04/06/16 10:30:17 clear
+   82  04/06/16 10:30:17 git status
+   83  04/06/16 10:30:17 env
+   84  04/06/16 10:30:17 ls
+   85  04/06/16 10:30:17 env | grep PATH
+   86  04/06/16 10:30:17 git
+   87  04/06/16 10:30:17 env | grep PATH
+   88  04/06/16 10:30:17 env | grep git
+   89  04/06/16 10:30:17 which git
+   90  04/06/16 10:30:17 cd /etc/gitconfig/
+   91  04/06/16 10:30:17 ls
+   92  04/06/16 10:30:17 git config --global user.email "yinm05@gmail.com"
+   93  04/06/16 10:30:17 git config --global credential.helper cache
+   94  04/06/16 10:30:17 git config --global credential.helper 'cache --timeout=86400'
+   95  04/06/16 10:30:17 cd ..
+   96  04/06/16 10:30:17 cd
+   97  04/06/16 10:30:17 clear
+   98  04/06/16 10:30:17 pwd
+   99  04/06/16 10:30:17 git init
+  100  04/06/16 10:30:17 rm -R .git
+  101  04/06/16 10:30:17 git init
+  102  04/06/16 10:30:17 git status
+  103  04/06/16 10:30:17 echo $HOSTNAME
+  104  04/06/16 10:30:17 history
+  105  04/06/16 10:30:17 ls -ltra
+  106  04/06/16 10:30:17 ln -s .bash_history root_history
+  107  04/06/16 10:30:17 ls -ltr
+  108  04/06/16 10:30:17 cat root_history 
+  109  04/06/16 10:30:17 ls -trh
+  110  04/06/16 10:30:17 ls -ltrh
+  111  04/06/16 10:30:17 ls -ltrha
+  112  04/06/16 10:30:17 rm root_history 
+  113  04/06/16 10:30:17 echo "# LX2_yretana" >> README.md
+  114  04/06/16 10:30:17 ls
+  115  04/06/16 10:30:17 git init
+  116  04/06/16 10:30:17 git add README.md
+  117  04/06/16 10:30:17 git commit -m "first commit"
+  118  04/06/16 10:30:17 ls
+  119  04/06/16 10:30:17 cat readme.md
+  120  04/06/16 10:30:17 cat README.md
+  121  04/06/16 10:30:17 git status
+  122  04/06/16 10:30:17 git remote add github https://github.com/yerlyn/LX2_yretana.git
+  123  04/06/16 10:30:17 git push -u github master
+  124  04/06/16 10:30:17 ls
+  125  04/06/16 10:30:17 mkdir HISTORY
+  126  04/06/16 10:30:17 git add HISTORY
+  127  04/06/16 10:30:17 commit
+  128  04/06/16 10:30:17 git commit -m "Second Commit"
+  129  04/06/16 10:30:17 cd history
+  130  04/06/16 10:30:17 cd HISTORY
+  131  04/06/16 10:30:17 ;s
+  132  04/06/16 10:30:17 ls
+  133  04/06/16 10:30:17 cd
+  134  04/06/16 10:30:17 history > HISTORY/root
+  135  04/06/16 10:30:17 ls
+  136  04/06/16 10:30:17 cd HISTORY/
+  137  04/06/16 10:30:17 ls
+  138  04/06/16 10:30:17 cat root
+  139  04/06/16 10:30:17 history > HISTORY/root-history
+  140  04/06/16 10:30:17 cd
+  141  04/06/16 10:30:17 history > HISTORY/root-history
+  142  04/06/16 10:30:17 git add
+  143  04/06/16 10:30:17 ls
+  144  04/06/16 10:30:17 rm root
+  145  04/06/16 10:30:17 clear
+  146  04/06/16 10:30:17 cd
+  147  04/06/16 10:30:17 git add HISTORY/root-history 
+  148  04/06/16 10:30:17 git push -u github master
+  149  04/06/16 10:30:17 git commit -m "history"
+  150  04/06/16 10:30:17 git push -u github master
+  151  04/06/16 10:30:17 clear
+  152  04/06/16 10:30:17 fdisk -l
+  153  04/06/16 10:30:17 pvcreate /dev/sda6
+  154  04/06/16 10:30:17 fdisk -l
+  155  04/06/16 10:30:17 df -h 
+  156  04/06/16 10:30:17 df -s
+  157  04/06/16 10:30:17 swap
+  158  04/06/16 10:30:17 pvcreate /dev/sda{6,7,8}
+  159  04/06/16 10:30:17 root@yin-VirtualBox:~# pvcreate /dev/sda{6,7,8}
+  160  04/06/16 10:30:17 hdparm -I
+  161  04/06/16 10:30:17 hdparm -i
+  162  04/06/16 10:30:17 clear
+  163  04/06/16 10:30:17 pvdisplay
+  164  04/06/16 10:30:17 hdparm -l
+  165  04/06/16 10:30:17 hdparm -I /dev/sda6
+  166  04/06/16 10:30:17 man vgcreate
+  167  04/06/16 10:30:17 fdisk -l
+  168  04/06/16 10:30:17 fdisk 
+  169  04/06/16 10:30:17 fdisk
+  170  04/06/16 10:30:17 clear
+  171  04/06/16 10:30:17 fdisk /dev/sda6
+  172  04/06/16 10:30:17 fdisk /dev/sda7
+  173  04/06/16 10:30:17 fdisk /dev/sda8
+  174  04/06/16 10:30:17 clear
+  175  04/06/16 10:30:17 history >HISTORY/root-history-lvm
+  176  04/06/16 10:30:17 git add HISTORY/root-history-lvm
+  177  04/06/16 10:30:17 git commit -m "LVM"
+  178  04/06/16 10:30:17 git push -u github master
+  179  04/06/16 10:30:17 reboot
+  180  04/06/16 10:30:17 fdisk -l
+  181  04/06/16 10:30:17 fdisk /dev/sda6
+  182  04/06/16 10:30:17 pvdisplay
+  183  04/06/16 10:30:17 vgdisplay
+  184  04/06/16 10:30:17 vgcreate -s 16M vg01 /dev/sda6
+  185  04/06/16 10:30:17 vgdisplay
+  186  04/06/16 10:30:17 vgcreate -s 16M vg02 /dev/sda{7,8}
+  187  04/06/16 10:30:17 vgdisplay
+  188  04/06/16 10:30:17 vgremove vg02
+  189  04/06/16 10:30:17 vgdisplay
+  190  04/06/16 10:30:17 vgcreate -s 16M vg02 /dev/sda7
+  191  04/06/16 10:30:17 vgdisplay
+  192  04/06/16 10:30:17 vgextend vg02 /dev/sda8
+  193  04/06/16 10:30:17 vgdisplay
+  194  04/06/16 10:30:17 lvdisplay
+  195  04/06/16 10:30:17 lvcreate -L 100% -n data01 vg01
+  196  04/06/16 10:30:17 man lvcreate
+  197  04/06/16 10:30:17 lvcreate -l 100% -n data01 vg01
+  198  04/06/16 10:30:17 man lvcreate
+  199  04/06/16 10:30:17 lvcreate -l 100% FREE -n data01 vg01
+  200  04/06/16 10:30:17 lvcreate -l 100%FREE -n data01 vg01
+  201  04/06/16 10:30:17 lvdisplay
+  202  04/06/16 10:30:17 lvcreate -l 25%FREE -n data02 vg02
+  203  04/06/16 10:30:17 lvdisplay
+  204  04/06/16 10:30:17 lvcreate -l 50%VG -n data03 vg02
+  205  04/06/16 10:30:17 lvcreate -l 100%FREE -n data04 vg02
+  206  04/06/16 10:30:17 lvdisplay
+  207  04/06/16 10:30:17 vgdisplay
+  208  04/06/16 10:30:17 df -h
+  209  04/06/16 10:30:17 history | grep lv
+  210  04/06/16 10:30:17 fdisk -l | grep mapper
+  211  04/06/16 10:30:17 lvdisplay | grep path
+  212  04/06/16 10:30:17 lvdisplay | grep Path
+  213  04/06/16 10:30:17 mkfs.ext4 /dev/vg01/data0{1,2,3,4}
+  214  04/06/16 10:30:17 mkfs.ext4 /dev/vg01/data01
+  215  04/06/16 10:30:17 mkfs.ext4 /dev/vg01/data{02,03}
+  216  04/06/16 10:30:17 mkfs.ext4 /dev/vg01/data02
+  217  04/06/16 10:30:17 mkfs.ext4 /dev/vg02/data0{4,3,2}
+  218  04/06/16 10:30:17 mkfs.ext4 /dev/vg02/data02
+  219  04/06/16 10:30:17 mkfs.ext4 /dev/vg02/data03
+  220  04/06/16 10:30:17 mkfs.ext4 /dev/vg02/data04
+  221  04/06/16 10:30:17 pwd
+  222  04/06/16 10:30:17 cd /
+  223  04/06/16 10:30:17 pwd
+  224  04/06/16 10:30:17 mkdir data01
+  225  04/06/16 10:30:17 mkdir data02
+  226  04/06/16 10:30:17 mkdir data03
+  227  04/06/16 10:30:17 mkdir data04
+  228  04/06/16 10:30:17 mount /dev/vg01/data01 
+  229  04/06/16 10:30:17 mount /dev/vg01/data01 /data01
+  230  04/06/16 10:30:17 df -h
+  231  04/06/16 10:30:17 mount /dev/vg02/data02 /data02
+  232  04/06/16 10:30:17 mount /dev/vg02/data03 /data03
+  233  04/06/16 10:30:17 mount /dev/vg02/data04 /data04
+  234  04/06/16 10:30:17 df -h
+  235  04/06/16 10:30:17 ip addr
+  236  04/06/16 10:30:17 ps -ef
+  237  04/06/16 10:30:17 clear
+  238  04/06/16 10:30:17 ntop
+  239  04/06/16 10:30:17 apt-get install ntop
+  240  04/06/16 10:30:17 ping google.com
+  241  04/06/16 10:30:17 ipconfig
+  242  04/06/16 10:30:17 ifconfig
+  243  04/06/16 10:30:17 cat /etc/resolv.conf 
+  244  04/06/16 10:30:17 ifdown eth0
+  245  04/06/16 10:30:17 ifup eth0
+  246  04/06/16 10:30:17 reboot
+  247  04/06/16 10:30:20 clear
+  248  04/06/16 10:30:24 ifconfig
+  249  04/06/16 10:30:31 ping google.com
+  250  04/06/16 10:30:38 apt-get install ntop
+  251  04/06/16 10:31:49 ntop
+  252  04/06/16 10:37:07 netstat
+  253  04/06/16 10:37:32 netstat -tulpn | grep :3000
+  254  04/06/16 10:38:08 ps -ef | grep ntop
+  255  04/06/16 10:41:42 pwd
+  256  04/06/16 10:41:45 ls
+  257  04/06/16 10:41:50 cd history
+  258  04/06/16 10:41:55 cd HISTORY
+  259  04/06/16 10:41:57 ls
+  260  04/06/16 10:43:26 touch root-history-ntop
+  261  04/06/16 10:43:28 ls
+  262  04/06/16 10:45:15 export HISTTIMEFORMAT="%d/%m/%y %T "
+  263  04/06/16 10:45:19 history
+  264  04/06/16 10:46:05 history | grep "04/06/16"
+  265  04/06/16 10:47:38 ls -ltra
+  266  04/06/16 10:47:44 cd
+  267  04/06/16 10:47:46 ls -ltra
+  268  04/06/16 10:49:25 cat .profile
+  269  04/06/16 10:49:32 vi .profile
+  270  04/06/16 10:50:52 cat .profile
+  271  04/06/16 10:54:13 netstat -r
+  272  04/06/16 10:54:50 nslookup google.com
+  273  04/06/16 11:00:41 netstat -atun
+  274  04/06/16 11:02:06 ss | less
+  275  04/06/16 11:02:19 ss -atun
+  276  04/06/16 11:02:32 ss -satun
+  277  04/06/16 11:02:39 ss -atun
+  278  04/06/16 11:02:50 ss -satun
+  279  04/06/16 11:10:23 nameservers=$(cat /etc/resolv.conf | sed '1 d' | awk '{print $2}')
+  280  04/06/16 11:10:37 cat /etc/resolv.conf | sed '1 d' | awk '{print $2}'
+  281  04/06/16 11:12:34 clear
+  282  04/06/16 11:12:34 unset tecreset os architecture kernelrelease internalip externalip nameserver loadaverage
+  283  04/06/16 11:12:34 while getopts iv name; do         case $name in           i)iopt=1;;           v)vopt=1;;           *)echo "Invalid arg";;         esac; done
+  284  04/06/16 11:13:02 clear
+  285  04/06/16 11:13:39 vi test1.sh
+  286  04/06/16 11:14:06 chmod u+x test1.sh
+  287  04/06/16 11:14:23 ./test1.sh 
+  288  04/06/16 11:14:45 vi test1.sh 
+  289  04/06/16 11:15:42 ./test1.sh 
+  290  04/06/16 11:17:26 ./test1.sh AS nhtg mnjh
+  291  04/06/16 11:17:30 ./test1.sh 
+  292  04/06/16 11:18:20 uname -0
+  293  04/06/16 11:18:22 uname -o
+  294  04/06/16 11:20:22 vi test1.sh 
+  295  04/06/16 11:22:03 ./test1.sh 
+  296  04/06/16 11:22:43 ping -c 1 google.com
+  297  04/06/16 11:22:50 ping -c 1 google.comd
+  298  04/06/16 11:26:56 curl -s ipecho.net/plain;echo
+  299  04/06/16 11:29:25 top
+  300* 04/06/16 11:29:50 
+  301  04/06/16 11:30:54 vi test1.sh 
+  302  04/06/16 11:31:20 ./test1.sh 
+  303  04/06/16 11:33:36 vi test1.sh 
+  304  04/06/16 11:34:04 ./test1.sh 
+  305  04/06/16 11:35:45 netstat -satun
+  306  04/06/16 11:35:51 netstat -atun
+  307  04/06/16 11:35:59 ss -s
+  308  04/06/16 11:37:35 netstat -atun | grep -v
+  309  04/06/16 11:37:50 netstat -atun | grep -v Active
+  310  04/06/16 11:41:05 ss -satun
+  311  04/06/16 11:41:21 ss -s
+  312  04/06/16 11:42:19 netstat -r
+  313  04/06/16 11:42:31 route -print
+  314  04/06/16 11:42:36 route 
+  315  04/06/16 11:45:37 vi test1.sh 
+  316  04/06/16 11:46:06 ./test1.sh 
+  317  04/06/16 11:48:01 vi test1.sh 
+  318  04/06/16 11:49:26 ./test1.sh 
+  319  04/06/16 11:50:25 netstat -atun | grep Active
+  320  04/06/16 11:50:34 netstat -atun | grep -v Active
+  321  04/06/16 11:51:08 vi test1.sh 
+  322  04/06/16 11:51:23 ./test1.sh 
+  323  04/06/16 11:51:30 vi test1.sh 
+  324  04/06/16 11:57:06 ./test1.sh 
+  325  04/06/16 11:57:59 cat  test1.sh 
+  326  04/06/16 11:58:29 cp test1.sh test2.sh
+  327  04/06/16 11:58:31 vi test2.sh 
+  328  04/06/16 12:00:29 ./test2.sh 
+  329  04/06/16 12:00:34 cat test2.sh 
+  330  04/06/16 12:53:23 ls -ltr
+  331  04/06/16 12:53:33 mv test2.sh script_monitoreo.sh
+  332  04/06/16 12:53:52 git add script_monitoreo.sh 
+  333  04/06/16 12:53:58 git add HISTORY/root-history-ntop 
+  334  04/06/16 12:56:12 history > HISTORY/root-history-script_monitoreo
