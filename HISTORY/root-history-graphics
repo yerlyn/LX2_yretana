@@ -1,0 +1,611 @@
+    1  15/06/16 18:42:45 dmesg 
+    2  15/06/16 18:42:45 dpkg -l | grep -i nvidia-*
+    3  15/06/16 18:42:45 sudo apt-get remove --purge nvidia-*
+    4  15/06/16 18:42:45 sudo apt-get install ubuntu-desktop
+    5  15/06/16 18:42:45 cat /etc/x11/default-display-manager
+    6  15/06/16 18:42:45 sudo restart lightdm 
+    7  15/06/16 18:42:45 exit
+    8  15/06/16 18:42:45 ifdown eth0
+    9  15/06/16 18:42:45 ifup eth0
+   10  15/06/16 18:42:45 ip addr
+   11  15/06/16 18:42:45 ifup eth0
+   12  15/06/16 18:42:45 reboot
+   13  15/06/16 18:42:45 ls
+   14  15/06/16 18:42:45 pwd
+   15  15/06/16 18:42:45 cd /etc
+   16  15/06/16 18:42:45 cd /git
+   17  15/06/16 18:42:45 mkdir gitconfig
+   18  15/06/16 18:42:45 ls
+   19  15/06/16 18:42:45 cd gitconfig/
+   20  15/06/16 18:42:45 ls
+   21  15/06/16 18:42:45 clear
+   22  15/06/16 18:42:45 cd ..
+   23  15/06/16 18:42:45 ls -ltrh gitconfig
+   24  15/06/16 18:42:45 ls -ltrh git
+   25  15/06/16 18:42:45 ls -ltrh 
+   26  15/06/16 18:42:45 pwd
+   27  15/06/16 18:42:45 clear
+   28  15/06/16 18:42:45 git config --global user.name "yerlyn"
+   29  15/06/16 18:42:45 git config --global user.name "yin@yin"
+   30  15/06/16 18:42:45 geit config --list
+   31  15/06/16 18:42:45 git config --list
+   32  15/06/16 18:42:45 git config --global user.name "yerlyn"
+   33  15/06/16 18:42:45 git config --global user.email "yin@yin"
+   34  15/06/16 18:42:45 git config --list
+   35  15/06/16 18:42:45 ifup eth0
+   36  15/06/16 18:42:45 ifdown eth0
+   37  15/06/16 18:42:45 ifconfig
+   38  15/06/16 18:42:45 sudo dmesg | grep eth0
+   39  15/06/16 18:42:45 ifconfig
+   40  15/06/16 18:42:45 ip adr
+   41  15/06/16 18:42:45 ip addr
+   42  15/06/16 18:42:45 ifdown eth0
+   43  15/06/16 18:42:45 ifup eth0
+   44  15/06/16 18:42:45 ip addr
+   45  15/06/16 18:42:45 reboot
+   46  15/06/16 18:42:45 ifdown eth0
+   47  15/06/16 18:42:45 ifup eth0
+   48  15/06/16 18:42:45 ifconfig
+   49  15/06/16 18:42:45 service networking restart
+   50  15/06/16 18:42:45 reboot
+   51  15/06/16 18:42:45 shutdown -h now
+   52  15/06/16 18:42:45 git config --list
+   53  15/06/16 18:42:45 exit
+   54  15/06/16 18:42:45 pwd
+   55  15/06/16 18:42:45 cd /etc
+   56  15/06/16 18:42:45 sudo chown yin:yin /etc/gitconfig/
+   57  15/06/16 18:42:45 sudo chown -R yin:yin /etc/gitconfig/
+   58  15/06/16 18:42:45 exit
+   59  15/06/16 18:42:45 chown yin
+   60  15/06/16 18:42:45 chmod 777 -R /etc/gitconfig/
+   61  15/06/16 18:42:45 exit
+   62  15/06/16 18:42:45 clear
+   63  15/06/16 18:42:45 git init
+   64  15/06/16 18:42:45 git add *.c
+   65  15/06/16 18:42:45 git add README
+   66  15/06/16 18:42:45 pwd
+   67  15/06/16 18:42:45 ls
+   68  15/06/16 18:42:45 cd /root/.git/
+   69  15/06/16 18:42:45 ls
+   70  15/06/16 18:42:45 git add *.c
+   71  15/06/16 18:42:45 git add README
+   72  15/06/16 18:42:45 tre
+   73  15/06/16 18:42:45 tree
+   74  15/06/16 18:42:45 sudo apt-get install tree
+   75  15/06/16 18:42:45 tree
+   76  15/06/16 18:42:45 clear
+   77  15/06/16 18:42:45 git commit -m 'Initial'
+   78  15/06/16 18:42:45 exit
+   79  15/06/16 18:42:45 git status
+   80  15/06/16 18:42:45 cat .bash_history 
+   81  15/06/16 18:42:45 clear
+   82  15/06/16 18:42:45 git status
+   83  15/06/16 18:42:45 env
+   84  15/06/16 18:42:45 ls
+   85  15/06/16 18:42:45 env | grep PATH
+   86  15/06/16 18:42:45 git
+   87  15/06/16 18:42:45 env | grep PATH
+   88  15/06/16 18:42:45 env | grep git
+   89  15/06/16 18:42:45 which git
+   90  15/06/16 18:42:45 cd /etc/gitconfig/
+   91  15/06/16 18:42:45 ls
+   92  15/06/16 18:42:45 git config --global user.email "yinm05@gmail.com"
+   93  15/06/16 18:42:45 git config --global credential.helper cache
+   94  15/06/16 18:42:45 git config --global credential.helper 'cache --timeout=86400'
+   95  15/06/16 18:42:45 cd ..
+   96  15/06/16 18:42:45 cd
+   97  15/06/16 18:42:45 clear
+   98  15/06/16 18:42:45 pwd
+   99  15/06/16 18:42:45 git init
+  100  15/06/16 18:42:45 rm -R .git
+  101  15/06/16 18:42:45 git init
+  102  15/06/16 18:42:45 git status
+  103  15/06/16 18:42:45 echo $HOSTNAME
+  104  15/06/16 18:42:45 history
+  105  15/06/16 18:42:45 ls -ltra
+  106  15/06/16 18:42:45 ln -s .bash_history root_history
+  107  15/06/16 18:42:45 ls -ltr
+  108  15/06/16 18:42:45 cat root_history 
+  109  15/06/16 18:42:45 ls -trh
+  110  15/06/16 18:42:45 ls -ltrh
+  111  15/06/16 18:42:45 ls -ltrha
+  112  15/06/16 18:42:45 rm root_history 
+  113  15/06/16 18:42:45 echo "# LX2_yretana" >> README.md
+  114  15/06/16 18:42:45 ls
+  115  15/06/16 18:42:45 git init
+  116  15/06/16 18:42:45 git add README.md
+  117  15/06/16 18:42:45 git commit -m "first commit"
+  118  15/06/16 18:42:45 ls
+  119  15/06/16 18:42:45 cat readme.md
+  120  15/06/16 18:42:45 cat README.md
+  121  15/06/16 18:42:45 git status
+  122  15/06/16 18:42:45 git remote add github https://github.com/yerlyn/LX2_yretana.git
+  123  15/06/16 18:42:45 git push -u github master
+  124  15/06/16 18:42:45 ls
+  125  15/06/16 18:42:45 mkdir HISTORY
+  126  15/06/16 18:42:45 git add HISTORY
+  127  15/06/16 18:42:45 commit
+  128  15/06/16 18:42:45 git commit -m "Second Commit"
+  129  15/06/16 18:42:45 cd history
+  130  15/06/16 18:42:45 cd HISTORY
+  131  15/06/16 18:42:45 ;s
+  132  15/06/16 18:42:45 ls
+  133  15/06/16 18:42:45 cd
+  134  15/06/16 18:42:45 history > HISTORY/root
+  135  15/06/16 18:42:45 ls
+  136  15/06/16 18:42:45 cd HISTORY/
+  137  15/06/16 18:42:45 ls
+  138  15/06/16 18:42:45 cat root
+  139  15/06/16 18:42:45 history > HISTORY/root-history
+  140  15/06/16 18:42:45 cd
+  141  15/06/16 18:42:45 history > HISTORY/root-history
+  142  15/06/16 18:42:45 git add
+  143  15/06/16 18:42:45 ls
+  144  15/06/16 18:42:45 rm root
+  145  15/06/16 18:42:45 clear
+  146  15/06/16 18:42:45 cd
+  147  15/06/16 18:42:45 git add HISTORY/root-history 
+  148  15/06/16 18:42:45 git push -u github master
+  149  15/06/16 18:42:45 git commit -m "history"
+  150  15/06/16 18:42:45 git push -u github master
+  151  15/06/16 18:42:45 clear
+  152  15/06/16 18:42:45 fdisk -l
+  153  15/06/16 18:42:45 pvcreate /dev/sda6
+  154  15/06/16 18:42:45 fdisk -l
+  155  15/06/16 18:42:45 df -h 
+  156  15/06/16 18:42:45 df -s
+  157  15/06/16 18:42:45 swap
+  158  15/06/16 18:42:45 pvcreate /dev/sda{6,7,8}
+  159  15/06/16 18:42:45 root@yin-VirtualBox:~# pvcreate /dev/sda{6,7,8}
+  160  15/06/16 18:42:45 hdparm -I
+  161  15/06/16 18:42:45 hdparm -i
+  162  15/06/16 18:42:45 clear
+  163  15/06/16 18:42:45 pvdisplay
+  164  15/06/16 18:42:45 hdparm -l
+  165  15/06/16 18:42:45 hdparm -I /dev/sda6
+  166  15/06/16 18:42:45 man vgcreate
+  167  15/06/16 18:42:45 fdisk -l
+  168  15/06/16 18:42:45 fdisk 
+  169  15/06/16 18:42:45 fdisk
+  170  15/06/16 18:42:45 clear
+  171  15/06/16 18:42:45 fdisk /dev/sda6
+  172  15/06/16 18:42:45 fdisk /dev/sda7
+  173  15/06/16 18:42:45 fdisk /dev/sda8
+  174  15/06/16 18:42:45 clear
+  175  15/06/16 18:42:45 history >HISTORY/root-history-lvm
+  176  15/06/16 18:42:45 git add HISTORY/root-history-lvm
+  177  15/06/16 18:42:45 git commit -m "LVM"
+  178  15/06/16 18:42:45 git push -u github master
+  179  15/06/16 18:42:45 reboot
+  180  15/06/16 18:42:45 fdisk -l
+  181  15/06/16 18:42:45 fdisk /dev/sda6
+  182  15/06/16 18:42:45 pvdisplay
+  183  15/06/16 18:42:45 vgdisplay
+  184  15/06/16 18:42:45 vgcreate -s 16M vg01 /dev/sda6
+  185  15/06/16 18:42:45 vgdisplay
+  186  15/06/16 18:42:45 vgcreate -s 16M vg02 /dev/sda{7,8}
+  187  15/06/16 18:42:45 vgdisplay
+  188  15/06/16 18:42:45 vgremove vg02
+  189  15/06/16 18:42:45 vgdisplay
+  190  15/06/16 18:42:45 vgcreate -s 16M vg02 /dev/sda7
+  191  15/06/16 18:42:45 vgdisplay
+  192  15/06/16 18:42:45 vgextend vg02 /dev/sda8
+  193  15/06/16 18:42:45 vgdisplay
+  194  15/06/16 18:42:45 lvdisplay
+  195  15/06/16 18:42:45 lvcreate -L 100% -n data01 vg01
+  196  15/06/16 18:42:45 man lvcreate
+  197  15/06/16 18:42:45 lvcreate -l 100% -n data01 vg01
+  198  15/06/16 18:42:45 man lvcreate
+  199  15/06/16 18:42:45 lvcreate -l 100% FREE -n data01 vg01
+  200  15/06/16 18:42:45 lvcreate -l 100%FREE -n data01 vg01
+  201  15/06/16 18:42:45 lvdisplay
+  202  15/06/16 18:42:45 lvcreate -l 25%FREE -n data02 vg02
+  203  15/06/16 18:42:45 lvdisplay
+  204  15/06/16 18:42:45 lvcreate -l 50%VG -n data03 vg02
+  205  15/06/16 18:42:45 lvcreate -l 100%FREE -n data04 vg02
+  206  15/06/16 18:42:45 lvdisplay
+  207  15/06/16 18:42:45 vgdisplay
+  208  15/06/16 18:42:45 df -h
+  209  15/06/16 18:42:45 history | grep lv
+  210  15/06/16 18:42:45 fdisk -l | grep mapper
+  211  15/06/16 18:42:45 lvdisplay | grep path
+  212  15/06/16 18:42:45 lvdisplay | grep Path
+  213  15/06/16 18:42:45 mkfs.ext4 /dev/vg01/data0{1,2,3,4}
+  214  15/06/16 18:42:45 mkfs.ext4 /dev/vg01/data01
+  215  15/06/16 18:42:45 mkfs.ext4 /dev/vg01/data{02,03}
+  216  15/06/16 18:42:45 mkfs.ext4 /dev/vg01/data02
+  217  15/06/16 18:42:45 mkfs.ext4 /dev/vg02/data0{4,3,2}
+  218  15/06/16 18:42:45 mkfs.ext4 /dev/vg02/data02
+  219  15/06/16 18:42:45 mkfs.ext4 /dev/vg02/data03
+  220  15/06/16 18:42:45 mkfs.ext4 /dev/vg02/data04
+  221  15/06/16 18:42:45 pwd
+  222  15/06/16 18:42:45 cd /
+  223  15/06/16 18:42:45 pwd
+  224  15/06/16 18:42:45 mkdir data01
+  225  15/06/16 18:42:45 mkdir data02
+  226  15/06/16 18:42:45 mkdir data03
+  227  15/06/16 18:42:45 mkdir data04
+  228  15/06/16 18:42:45 mount /dev/vg01/data01 
+  229  15/06/16 18:42:45 mount /dev/vg01/data01 /data01
+  230  15/06/16 18:42:45 df -h
+  231  15/06/16 18:42:45 mount /dev/vg02/data02 /data02
+  232  15/06/16 18:42:45 mount /dev/vg02/data03 /data03
+  233  15/06/16 18:42:45 mount /dev/vg02/data04 /data04
+  234  15/06/16 18:42:45 df -h
+  235  15/06/16 18:42:45 ip addr
+  236  15/06/16 18:42:45 ps -ef
+  237  15/06/16 18:42:45 clear
+  238  15/06/16 18:42:45 ntop
+  239  15/06/16 18:42:45 apt-get install ntop
+  240  15/06/16 18:42:45 ping google.com
+  241  15/06/16 18:42:45 ipconfig
+  242  15/06/16 18:42:45 ifconfig
+  243  15/06/16 18:42:45 cat /etc/resolv.conf 
+  244  15/06/16 18:42:45 ifdown eth0
+  245  15/06/16 18:42:45 ifup eth0
+  246  15/06/16 18:42:45 reboot
+  247  15/06/16 18:10:02 pwd
+  248* 15/06/16 18:10:04 
+  249  15/06/16 18:18:16 sudo rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+  250  15/06/16 18:22:20 wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+  251  15/06/16 18:22:28 ls
+  252  15/06/16 18:25:26 apt-get install catdoc 
+  253  15/06/16 18:26:23 ls
+  254  15/06/16 18:26:30 rm rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm 
+  255  15/06/16 18:26:32 ls
+  256  15/06/16 18:27:16 df -h
+  257  15/06/16 18:27:40 cd /home
+  258  15/06/16 18:27:42 ls
+  259  15/06/16 18:27:44 cd yin
+  260  15/06/16 18:27:45 ls
+  261  15/06/16 18:27:50 cd downloads
+  262  15/06/16 18:28:05 cd Downloads/
+  263  15/06/16 18:28:06 ls
+  264  15/06/16 18:28:35 cd
+  265  15/06/16 18:28:37 ls
+  266  15/06/16 18:32:37 exit
+  267  15/06/16 18:42:59 history | grep git
+  268  15/06/16 18:43:09 git status
+  269  15/06/16 18:43:54 cd /home
+  270  15/06/16 18:43:59 cd /yin
+  271  15/06/16 18:44:01 ls
+  272  15/06/16 18:44:05 cd yin
+  273  15/06/16 18:44:06 ls
+  274  15/06/16 18:44:12 cd Destop
+  275  15/06/16 18:44:15 cd Desktop/\
+  276  15/06/16 18:44:20 cd Desktop
+  277  15/06/16 18:44:21 ls
+  278  15/06/16 18:44:24 cd DATOS
+  279  15/06/16 18:44:25 ls
+  280  15/06/16 18:45:06 xls2csv datos1.xls archivo1.csv
+  281  15/06/16 18:45:09 ls
+  282  15/06/16 18:45:25 xls2csv datos1.xls >>archivo1.csv
+  283  15/06/16 18:45:28 ls
+  284  15/06/16 18:46:28 cd ..
+  285  15/06/16 18:46:32 cd Problema1
+  286  15/06/16 18:46:33 ls
+  287  15/06/16 18:47:46 la
+  288  15/06/16 18:47:53 cd hojasDatos/
+  289  15/06/16 18:47:54 ls
+  290  15/06/16 18:48:01 xls2csv datos1.xls >>archivo1.csv
+  291  15/06/16 18:48:03 ls
+  292  15/06/16 18:48:35 cd ..
+  293  15/06/16 18:48:46 vi Problema1.sh
+  294  15/06/16 18:50:31 ls
+  295  15/06/16 18:50:41 vi Problema1.sh
+  296  15/06/16 18:55:39 ls -ltrh Problema1.sh 
+  297  15/06/16 18:57:01 chmod u+x Problema1.sh 
+  298  15/06/16 18:57:03 ls -ltrh Problema1.sh 
+  299  15/06/16 18:57:24 .\Problema1.sh
+  300  15/06/16 18:57:33 ./Problema1.sh
+  301  15/06/16 18:57:43 ls
+  302  15/06/16 19:01:17 cat error.log 
+  303  15/06/16 19:01:22 clear
+  304  15/06/16 19:01:23 ls
+  305  15/06/16 19:01:53 vi Problema1.sh
+  306  15/06/16 19:03:14 ./Problema1.sh
+  307  15/06/16 19:03:30 cd hojasDatos/
+  308  15/06/16 19:03:32 ls
+  309  15/06/16 19:03:36 cd datos_csv/
+  310  15/06/16 19:03:37 ls
+  311  15/06/16 19:03:55 vi Problema1.sh
+  312  15/06/16 19:04:14 cd ..
+  313  15/06/16 19:04:24 ls
+  314  15/06/16 19:04:29 cd ..
+  315  15/06/16 19:05:01 vi Problema1.sh
+  316  15/06/16 19:06:48 find $DATA -name '*.xls'
+  317  15/06/16 19:07:05 echo $DATA
+  318  15/06/16 19:08:08 vi Problema1.sh
+  319  15/06/16 19:08:25 ./Problema1.sh
+  320  15/06/16 19:08:30 ls
+  321  15/06/16 19:08:37 cd hojasDatos/
+  322  15/06/16 19:08:38 ls
+  323  15/06/16 19:08:40 cd datos_csv/
+  324  15/06/16 19:08:41 ls
+  325  15/06/16 19:08:44 cd ..
+  326  15/06/16 19:08:50 rm datos_csv/
+  327  15/06/16 19:08:56 rm -R datos_csv/
+  328  15/06/16 19:08:59 ls
+  329  15/06/16 19:09:06 ./Problema1.sh
+  330  15/06/16 19:09:14 cd ..
+  331  15/06/16 19:09:15 ls
+  332  15/06/16 19:09:19 ./Problema1.sh
+  333  15/06/16 19:09:31 cd hojasDatos/
+  334  15/06/16 19:09:32 ls
+  335  15/06/16 19:09:39 cd datos_csv/
+  336  15/06/16 19:09:41 ls
+  337  15/06/16 19:11:14 cd ..
+  338  15/06/16 19:11:23 rm -R datos_csv/
+  339  15/06/16 19:11:26 cd ..
+  340  15/06/16 19:11:27 ls
+  341  15/06/16 19:11:36 vi Problema1.sh
+  342  15/06/16 19:12:36 ./Problema1.sh
+  343  15/06/16 19:12:39 ls
+  344  15/06/16 19:12:44 cd hojasDatos/
+  345  15/06/16 19:12:45 ls
+  346  15/06/16 19:12:48 cd datos_csv/
+  347  15/06/16 19:12:49 ls
+  348  15/06/16 19:13:05 cd ..
+  349  15/06/16 19:13:06 ls
+  350  15/06/16 19:13:10 rm archivo1.csv 
+  351  15/06/16 19:13:11 ls
+  352  15/06/16 19:13:24 rm -R datos_csv/
+  353  15/06/16 19:13:26 ls
+  354  15/06/16 19:13:28 cd 
+  355  15/06/16 19:13:36 cd /home/yin/Desktop/Problema1/
+  356  15/06/16 19:13:37 ls
+  357  15/06/16 19:13:44 vi error.log 
+  358  15/06/16 19:13:52 rm error.log 
+  359  15/06/16 19:14:00 ./Problema1.sh
+  360  15/06/16 19:14:08 vi error.log 
+  361  15/06/16 19:14:26 vi Problema1.sh
+  362  15/06/16 19:15:21 cd hojasDatos/
+  363  15/06/16 19:15:22 ls
+  364  15/06/16 19:15:29 rm -R datos_csv/
+  365  15/06/16 19:15:32 cd ..
+  366  15/06/16 19:15:35 ./Problema1.sh
+  367  15/06/16 19:15:43 cd hojasDatos/
+  368  15/06/16 19:15:44 ls
+  369  15/06/16 19:15:46 cd datos_csv/
+  370  15/06/16 19:15:47 ls
+  371  15/06/16 19:15:57 less data-0.csv 
+  372  15/06/16 19:19:44 file data-0.csv
+  373  15/06/16 19:20:30 iconv iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+  374  15/06/16 19:21:11 iconv iso-8859-1 -f utf-8 Datos >> datos.utf-8.out
+  375  15/06/16 19:21:25 iconv iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+  376  15/06/16 19:22:42 iconv -f iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+  377  15/06/16 19:24:39 ls
+  378  15/06/16 19:24:53 file datos.utf-8.out 
+  379  15/06/16 19:25:02 file data-0.csv 
+  380  15/06/16 19:25:31 ls -ltrh
+  381  15/06/16 19:26:04 cd ..
+  382  15/06/16 19:26:05 cd..
+  383  15/06/16 19:26:08 cd ..
+  384  15/06/16 19:28:15 cat hojasDatos/datos_csv/data-0.csv | awk -F "\", \""'{print $1" " $2 " " $3 " " $4 " " $5}' | head
+  385  15/06/16 19:28:45 cat hojasDatos/datos_csv/data-0.csv
+  386  15/06/16 19:29:17 cat hojasDatos/datos_csv/data-0.csv |awk -F "\", \""'{print $1" " $2 " " $3 " " $4 " " $5}' | head
+  387  15/06/16 19:31:14 cat hojasDatos/datos_csv/data-0.csv |awk -F "\", \"" '{print $1" "$2" "$3" "$4" "$5}'|head
+  388  15/06/16 19:32:18 cat hojasDatos/datos_csv/data-0.csv |awk -F "\", \"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|head
+  389  15/06/16 19:34:15 cat hojasDatos/datos_csv/data-0.csv |awk -F "\", \"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|sed '1$ s/"//g' |head
+  390  15/06/16 19:34:29 cat hojasDatos/datos_csv/data-0.csv |awk -F "\", \"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|sed '1, $ s/"//g' |head
+  391  15/06/16 19:36:31 cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|sed '1, $ s/"//g' |head
+  392  15/06/16 19:37:43 cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|sed '1, $ s/"//g'|sed '1 s/date/#date/g'|head
+  393  15/06/16 19:39:36 echo "cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|sed '1, $ s/"//g'|sed '1 s/date/#date/g'|head" >> programa.sh
+  394  15/06/16 19:39:43 ls
+  395  15/06/16 19:39:56 echo "cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|sed '1, $ s/"//g'|sed '1 s/date/#date/g'|head" >>programa.sh
+  396  15/06/16 19:40:25 vi programa.sh
+  397  15/06/16 19:41:11 echo "cat hojasDatos/datos_csv/data-0.csv |awk -F "\",\"" '{print $1"  "$2"  "$3"  "$4"  "$5}'|sed '1, $ s/"//g'|sed '1 s/date/#date/g'|head" >>Problema1.sh
+
+
+  398  15/06/16 19:41:24 ls
+  399  15/06/16 19:41:29 vi Problema1.sh 
+  400  15/06/16 19:51:11 cd hojasDatos/
+  401  15/06/16 19:51:12 ls
+  402  15/06/16 19:51:25 cd ..
+  403  15/06/16 19:51:27 vi Problema1.sh 
+  404  15/06/16 19:52:19 ./Problema1.sh
+  405  15/06/16 19:52:22 ls
+  406  15/06/16 19:52:26 cd hojasDatos/
+  407  15/06/16 19:52:27 ls
+  408  15/06/16 19:52:33 cd datos_csv/
+  409  15/06/16 19:52:35 ls
+  410  15/06/16 19:52:42 cd ..
+  411  15/06/16 19:52:46 ls
+  412  15/06/16 19:52:51 cat error2.log 
+  413  15/06/16 19:53:03 vi Problema1.sh 
+  414  15/06/16 19:53:30 ./Problema1.sh
+  415  15/06/16 19:53:33 ls
+  416  15/06/16 19:53:45 cd hojasDatos/
+  417  15/06/16 19:53:45 ls
+  418  15/06/16 19:53:49 cd ..
+  419  15/06/16 19:53:54 cat error2.log 
+  420  15/06/16 19:54:20 vi Problema1.sh 
+  421  15/06/16 19:57:22 ./Problema1.sh
+  422  15/06/16 19:57:31 cd hojasDatos/
+  423  15/06/16 19:57:33 ls
+  424  15/06/16 19:57:39 cd datos_csv/
+  425  15/06/16 19:57:40 ls
+  426  15/06/16 19:57:46 cd ..
+  427  15/06/16 19:57:51 cat error2.log 
+  428  15/06/16 19:58:14 vi Problema1.sh 
+  429  15/06/16 20:00:23 ./Problema1.sh
+  430  15/06/16 20:00:28 cat error2.log 
+  431  15/06/16 20:00:45 ls -ltr
+  432  15/06/16 20:00:52 vi Problema1.sh 
+  433  15/06/16 20:01:08 ./Problema1.sh
+  434  15/06/16 20:01:11 cat error2.log 
+  435  15/06/16 20:01:20 ls -ltr
+  436  15/06/16 20:01:30 cat error1.log 
+  437  15/06/16 20:01:34 cat error.log 
+  438  15/06/16 20:01:40 cat error2.log 
+  439  15/06/16 20:01:57 ls
+  440  15/06/16 20:01:59 cd hojasDatos/
+  441  15/06/16 20:02:01 ls
+  442  15/06/16 20:02:17 vi Problema1.sh 
+  443  15/06/16 20:02:26 cd ..
+  444  15/06/16 20:02:29 vi Problema1.sh 
+  445  15/06/16 20:03:47 ./Problema1.sh
+  446  15/06/16 20:03:53 cat error2.log 
+  447  15/06/16 20:04:04 cd hojasDatos/
+  448  15/06/16 20:04:06 ls
+  449  15/06/16 20:04:08 cd ..
+  450  15/06/16 20:04:11 vi Problema1.sh 
+  451  15/06/16 20:05:25 ./Problema1.sh
+  452  15/06/16 20:05:29 cat error2.log 
+  453  15/06/16 20:05:46 cd hojasDatos/
+  454  15/06/16 20:05:47 ls
+  455  15/06/16 20:05:51 cd ..
+  456  15/06/16 20:06:16 cp Problema1.sh Problema2.sh 
+  457  15/06/16 20:06:18 ls
+  458  15/06/16 20:06:27 vi Problema1
+  459  15/06/16 20:06:33 vi Problema1.sh 
+  460  15/06/16 20:07:57 ./Problema1.sh
+  461  15/06/16 20:08:02 cd hojasDatos/
+  462  15/06/16 20:08:03 ls
+  463  15/06/16 20:08:12 rm -R datos
+  464  15/06/16 20:08:16 rm -R datos_csv/
+  465  15/06/16 20:08:17 ls
+  466  15/06/16 20:08:23 cd ..
+  467  15/06/16 20:08:27 vi Problema1.sh 
+  468  15/06/16 20:09:26 ./Problema1.sh
+  469  15/06/16 20:09:33 cd hojasDatos/
+  470  15/06/16 20:09:34 ls
+  471  15/06/16 20:09:39 cd datos_csv/
+  472  15/06/16 20:09:40 ls
+  473  15/06/16 20:09:42 cd ..
+  474  15/06/16 20:09:49 rm -R datos_csv/
+  475  15/06/16 20:09:51 ls
+  476  15/06/16 20:09:54 cd ..
+  477  15/06/16 20:09:58 ./Problema1.sh
+  478  15/06/16 20:10:02 cd hojasDatos/
+  479  15/06/16 20:10:03 ls
+  480  15/06/16 20:10:08 rm -R datos_csv/
+  481  15/06/16 20:10:10 cd ..
+  482  15/06/16 20:10:13 ls
+  483  15/06/16 20:10:21 vi Problema1.sh 
+  484  15/06/16 20:11:04 ./Problema1.sh
+  485  15/06/16 20:11:10 cd hojasDatos/
+  486  15/06/16 20:11:11 ls
+  487  15/06/16 20:11:29 cd ..
+  488  15/06/16 20:11:32 vi Problema1.sh 
+  489  15/06/16 20:12:28 ./Problema1.sh
+  490  15/06/16 20:12:31 cd hojasDatos/
+  491  15/06/16 20:12:32 ls
+  492  15/06/16 20:12:36 cd datos_csv/
+  493  15/06/16 20:12:37 ls
+  494  15/06/16 20:12:44 cd ..
+  495  15/06/16 20:12:50 vi Problema1.sh 
+  496  15/06/16 20:13:26 DATA=/home/yin/Desktop/Problema1/hojasDatos/
+  497  15/06/16 20:13:30 echo $DATA
+  498  15/06/16 20:13:40 mkdir $DATA/datos_csv
+  499  15/06/16 20:13:46 mkdir=$DATA/datos_graf
+  500  15/06/16 20:13:48 ls
+  501  15/06/16 20:13:53 cd hojasDatos/
+  502  15/06/16 20:13:54 ls
+  503  15/06/16 20:14:03 echo $DATA
+  504  15/06/16 20:14:21 mkdir=$DATA/datos_graf
+  505  15/06/16 20:14:26 ls
+  506  15/06/16 20:14:47 mkdir $DATA/datos_graf
+  507  15/06/16 20:14:49 ls
+  508  15/06/16 20:14:52 cd ..
+  509  15/06/16 20:15:12 vi Problema2.sh 
+  510  15/06/16 20:15:35 rm Problema1.sh 
+  511  15/06/16 20:15:46 mv Problema2.sh Problema1.sh
+  512  15/06/16 20:15:56 vi Problema1.sh 
+  513  15/06/16 20:16:11 cd hojasDatos/
+  514  15/06/16 20:16:12 ls
+  515  15/06/16 20:16:26 rm -R datos_csv/
+  516  15/06/16 20:16:29 rm -R datos_graf/
+  517  15/06/16 20:16:31 ls
+  518  15/06/16 20:16:32 cd ..
+  519  15/06/16 20:16:45 ./Problema1.sh
+  520  15/06/16 20:16:50 cd hojasDatos/
+  521  15/06/16 20:16:51 ls
+  522  15/06/16 20:16:56 cd datos_graf/
+  523  15/06/16 20:16:57 ls
+  524  15/06/16 20:18:28 cp graf-0.dat /home/yin/Desktop/Problema1/plot
+  525  15/06/16 20:18:35 cd /home/yin/Desktop/Problema1/plot
+  526  15/06/16 20:18:37 ls
+  527  15/06/16 20:18:56 gnuplot
+  528  15/06/16 20:19:24 apt-get gnuplot
+  529  15/06/16 20:19:31 apt-get install gnuplot
+  530  15/06/16 20:21:46 gnuplot
+  531  15/06/16 20:29:58 ls
+  532  15/06/16 20:30:27 gnuplot
+  533  15/06/16 20:54:38 clear
+  534  15/06/16 20:54:44 gnuplot
+  535  15/06/16 21:04:24 cd ..
+  536  15/06/16 21:04:25 ls
+  537  15/06/16 21:04:30 vi Problema1.sh 
+  538  15/06/16 22:15:37 ./Problema1.sh 
+  539  15/06/16 22:15:55 vi Problema1.sh 
+  540  15/06/16 22:18:09 ./Problema1.sh 
+  541  15/06/16 22:18:17 vi Problema1.sh 
+  542  15/06/16 22:18:35 ls
+  543  15/06/16 22:18:43 cat error3.log 
+  544  15/06/16 22:18:51 cat errorIF.log 
+  545  15/06/16 22:18:59 cat error2.log 
+  546  15/06/16 22:19:02 cat error.log 
+  547  15/06/16 22:19:41 cd hojasDatos/
+  548  15/06/16 22:19:42 ls
+  549  15/06/16 22:20:21 cd datos_csv/
+  550  15/06/16 22:20:22 ls
+  551  15/06/16 22:20:45 less data-4.csv
+  552  15/06/16 22:22:40 cd ..
+  553  15/06/16 22:22:46 vi Problema1.sh 
+  554  15/06/16 22:25:28 ./Problema1.sh 
+  555  15/06/16 22:25:37 vi Problema1.sh 
+  556  15/06/16 22:27:55 ./Problema1.sh 
+  557  15/06/16 22:28:15 cd hojasDatos/
+  558  15/06/16 22:28:17 ls
+  559  15/06/16 22:28:28 rm -R datos_graf/
+  560  15/06/16 22:28:33 rm -R datos_csv/
+  561  15/06/16 22:28:39 rm -R full_datos/
+  562  15/06/16 22:28:40 ls
+  563  15/06/16 22:28:47 cat datos1.xls 
+  564  15/06/16 22:28:52 clear
+  565  15/06/16 22:28:57 less datos1.xls 
+  566  15/06/16 22:29:07 clear
+  567  15/06/16 22:29:09 cd ..
+  568  15/06/16 22:29:18 ./Problema1.sh 
+  569  15/06/16 22:31:02 ls
+  570  15/06/16 22:31:06 ls -ltr
+  571  15/06/16 22:31:18 cat error.log
+  572  15/06/16 22:32:17 vi Problema1.sh 
+  573  15/06/16 22:32:38 ./Problema1.sh 
+  574  15/06/16 22:36:08 vi Problema1.sh 
+  575  15/06/16 22:41:37 ./Problema1.sh 
+  576  15/06/16 22:41:41 vi Problema1.sh 
+  577  15/06/16 22:45:17 ./Problema1.sh 
+  578  15/06/16 22:45:21 vi Problema1.sh 
+  579  15/06/16 22:47:57 ./Problema1.sh 
+  580  15/06/16 22:48:04 vi Problema1.sh 
+  581  15/06/16 22:49:30 ./Problema1.sh 
+  582  15/06/16 22:50:13 vi Problema1.sh 
+  583  15/06/16 22:50:51 ./Problema1.sh 
+  584  15/06/16 22:51:01 vi Problema1.sh 
+  585  15/06/16 22:51:18 ./Problema1.sh 
+  586  15/06/16 22:51:39 ls -ltrh
+  587  15/06/16 22:51:48 vi Problema1.sh 
+  588  15/06/16 22:57:35 ./Problema1.sh 
+  589  15/06/16 22:57:51 ls
+  590  15/06/16 22:57:55 ls -ltrh
+  591  15/06/16 22:58:00 cd hojasDatos/
+  592  15/06/16 22:58:01 ls
+  593  15/06/16 22:58:08 cd full_datos/
+  594  15/06/16 22:58:09 ls
+  595  15/06/16 22:58:27 less full.dat 
+  596  15/06/16 22:58:42 more full.dat 
+  597  15/06/16 22:58:52 less full.dat 
+  598  15/06/16 22:59:37 vi Problema1.sh 
+  599  15/06/16 22:59:45 cd ..
+  600  15/06/16 22:59:53 vi Problema1.sh 
+  601  15/06/16 23:01:51 ./Problema1.sh 
+  602  15/06/16 23:02:20 vi Problema1.sh 
+  603  15/06/16 23:02:42 ./Problema1.sh 
+  604  15/06/16 23:03:20 cd
+  605  15/06/16 23:03:21 ls
+  606  15/06/16 23:03:26 cd HISTORY/
+  607  15/06/16 23:03:28 ls
+  608  15/06/16 23:03:57 historial >> root-history-graphics
+  609  15/06/16 23:04:13 history >> root-history-graphics
